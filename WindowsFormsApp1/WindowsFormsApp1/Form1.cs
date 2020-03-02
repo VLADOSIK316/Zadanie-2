@@ -52,5 +52,10 @@ FROM[dbo].[houses_in_complexes] as h1", con);
             String gorod = textBox4.Text;
             dataGridView1.Rows.Add(nazvanie, status, kolvo, gorod);
         }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Close();
+        }
     }
 }
